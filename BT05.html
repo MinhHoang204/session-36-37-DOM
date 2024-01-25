@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+           background-color: yellow;
+        }
+        .item {
+           margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create New Item</h1>
+    <label for="text-input">Item</label><br>
+    <input type="text" id="text-input" oninput="changeBackgroundColor(this)"><br>
+    <button onclick="addItem()">Add</button>
+
+    <div id="list">
+        <ul>
+            <li>Nho mỹ</li>
+            <li>Táo tàu</li>
+        </ul>
+    </div>
+    
+    <script src="./BT05.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-group {
+          margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Form đặt hàng online:</h2>
+    <form id="orderForm">
+        <h3>Thông tin người mua</h3>
+        <div class="form-group">
+            <label for="fullName">Họ và tên:</label><br>
+            <input type="text" id="fullName" required pattern="[A-Za-z ]+" title="Tên chỉ chứa ký tự và khoảng trắng"><br>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" required><br>
+        </div>
+        <div class="form-group">
+            <label for="phone">Điện thoại</label><br>
+            <input type="text" id="phone" required><br>
+        </div>
+        <div class="form-group">
+            <label for="addres">Địa chỉ</label><br>
+            <input type="text" id="addres" required><br>
+        </div>
+        <div class="form-group">
+            <label for="orderDate">Ngày đặt</label><br>
+            <input type="text" id="orderDate" required><br>
+        </div>
+        <div class="form-group">
+            <label for="payment methods">Phương thức thanh toán</label><br>
+            <input type="text" id="payment methods" required><br>
+        </div>
+        <div class="form-group">
+            <label for="addres">Địa chỉ</label><br>
+            <input type="text" id="addres" required><br>
+        </div>
+
+        <h3>Thông tin người nhận</h3>
+        <button type="button" onclick="copyToRecipient()">Tôi là người nhận</button><br>
+        <div class="form-group">
+            <label for="fullName">Họ và tên:</label><br>
+            <input type="text" id="fullName" required pattern="[A-Za-z ]+" title="Tên chỉ chứa ký tự và khoảng trắng"><br>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" required><br>
+        </div>
+        <div class="form-group">
+            <label for="phone">Điện thoại</label><br>
+            <input type="text" id="phone" required><br>
+        </div>
+        <div class="form-group">
+            <label for="addres">Địa chỉ</label><br>
+            <input type="text" id="addres" required><br>
+        </div>
+        <div class="form-group">
+            <label for="note">Ghi chú</label><br>
+            <input type="text" id="note" required><br>
+        </div>
+    </form>
+    <script src="./BT08.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .game-container {
+          display: flex;
+          flex-wrap: wrap;
+          max-width: 400px;
+          margin: 0 auto;
+        }
+        .card {
+          width: 100px;
+          height: 100px;
+          margin: 5px;
+          background-color: #ccc;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 24px;
+          cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Memory Game</h1>
+    <div class="game-container" id="game-container">
+        <div class="card" onclick="revealCard(0)">?</div>
+        <div class="card" onclick="revealCard(1)">?</div>
+        <div class="card" onclick="revealCard(2)">?</div>
+        <div class="card" onclick="revealCard(3)">?</div>
+        <div class="card" onclick="revealCard(4)">?</div>
+        <div class="card" onclick="revealCard(5)">?</div>
+        <div class="card" onclick="revealCard(6)">?</div>
+        <div class="card" onclick="revealCard(7)">?</div>
+        <div class="card" onclick="revealCard(8)">?</div>
+        <div class="card" onclick="revealCard(9)">?</div>
+        <div class="card" onclick="revealCard(10)">?</div>
+        <div class="card" onclick="revealCard(11)">?</div>
+    </div>
+    <script src="./BT10.js"></script>
+</body>
+</html>
